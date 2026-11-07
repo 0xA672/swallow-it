@@ -1,0 +1,9 @@
+[package]
+name = "swallow"
+version = "0.1.0"
+edition = "2021"
+description = "A crate for things you don't care about."
+license = "MIT OR Apache-2.0"
+
+[lib]
+path = "src/lib.rs"
