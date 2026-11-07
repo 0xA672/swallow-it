@@ -1,4 +1,4 @@
-# swallow
+# swallow-it
 
 no_std
 
@@ -10,13 +10,13 @@ Installation
 
 ```
 [dependencies]
-swallow = "0.1"
+swallow-it = "0.1"
 ```
 
 Usage
 
 ```
-use swallow::swallow;
+use swallow_it::swallow;
 
 // Consume and discard.
 swallow(some_value);
@@ -46,4 +46,4 @@ Some values are computed.
 Some values are returned.
 Some values are simply swallowed.
 
-swallow exists for the third category.
+swallow-it exists for the third category.
